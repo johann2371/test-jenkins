@@ -24,7 +24,9 @@
         <java.version>17</java.version>
         <mapstruct.version>1.6.3</mapstruct.version>
         <jjwt.version>0.11.5</jjwt.version>
+        <sonar.java.binaries>target/classes</sonar.java.binaries>
     </properties>
+
 
     <!-- ===== DEPENDENCIES ===== -->
     <dependencies>
@@ -139,6 +141,7 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
+
 
         <dependency>
             <groupId>org.assertj</groupId>
