@@ -1,0 +1,42 @@
+2026-01-14 10:35:56 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 10:36:04 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 11:06:19 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 11:06:28 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 11:13:16 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 11:13:23 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 11:21:14 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 11:21:21 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 11:25:40 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 11:25:47 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 11:31:02 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 11:31:09 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 11:34:04 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 11:34:11 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 12:32:03 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 12:32:09 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 14:34:04 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 14:34:11 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 14:39:54 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 14:40:14 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 15:12:21 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 15:12:28 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 15:14:48 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 15:14:56 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 18:21:24 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 18:21:30 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 19:12:54 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 19:13:01 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 20:48:35 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 20:48:56 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 21:14:52 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 21:14:59 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 21:37:14 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 21:37:21 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 21:43:08 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 21:43:14 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 21:49:31 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 21:49:39 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 22:05:28 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 22:05:35 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+2026-01-14 22:08:39 [main] DEBUG c.example.backend.BackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-01-14 22:08:45 [main] DEBUG c.e.backend.security.jwt.JwtFilter - Filter 'jwtFilter' configured for use

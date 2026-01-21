@@ -1,0 +1,175 @@
+# # version: "3.8"
+
+# # services:
+# #   # ========== BASE DE DONNÉES MYSQL ==========
+# #   mysqldb:
+# #     image: mysql:8.0
+# #     container_name: mb_mysql_db
+# #     restart: always
+# #     ports:
+# #       - "3308:3306"
+# #     networks:
+# #       - mb_net
+# #     environment:  
+# #       MYSQL_DATABASE: logement_cameroun
+# #       MYSQL_ROOT_PASSWORD: root
+# #       MYSQL_ROOT_HOST: "%"
+# #     command: 
+# #       - --bind-address=0.0.0.0
+# #       - --skip-name-resolve
+# #     volumes:
+# #       - mysql_data:/var/lib/mysql 
+# #       - ./mysql/init-db:/docker-entrypoint-initdb.d/init.sql  
+# #     healthcheck:
+# #       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+# #       interval: 10s
+# #       timeout: 5s
+# #       retries: 10
+# #       start_period: 60s
+
+# #   # ========== APPLICATION (UN SEUL SERVICE) ==========
+# #   mb_api_compose:
+# #     build:
+# #       context: .
+# #       dockerfile: Dockerfile
+# #     container_name: mboaspot_backend
+# #     restart: always
+# #     ports:
+# #       - "8086:8003"
+# #     networks:
+# #       - mb_net
+# #     environment:
+# #       # Profil défini par variable (défaut: dev)
+# #       SPRING_PROFILES_ACTIVE: ${PROFILE:-dev}
+
+# #       SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/logement_cameroun?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+# #       SPRING_DATASOURCE_USERNAME: root
+# #       SPRING_DATASOURCE_PASSWORD: root
+# #       SPRING_JPA_HIBERNATE_DDL_AUTO: update
+# #       SPRING_JPA_SHOW_SQL: "true"
+# #       SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQL8Dialect
+# #       SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL: "true"
+# #       SERVER_PORT: 8003
+# #     depends_on:
+# #       mysqldb:
+# #         condition: service_healthy
+# #     volumes:
+# #       - .m2:/root/.m2  # Cache Maven pour accélérer les builds
+      
+# # # ========== RÉSEAUX ==========
+# # networks:
+# #   mb_net:
+# #     driver: bridge
+
+# # # ========== VOLUMES ==========
+# # volumes:
+# #   mysql_data:
+# #     driver: local
+
+# version: '3.8'
+# services:
+#   backend:
+#     build: 
+#       context: .
+#       dockerfile: Dockerfile
+#     image: mboaspot_backend
+#     container_name: backend
+#     ports:
+#       - "8003:8003"
+#     environment:
+#       - SPRING_PROFILES_ACTIVE=prod
+#       - DB_PASSWORD=root
+#       - JWT_SECRET=6F9C2A1B4E7D9F3A6B8C1D2E4F7A9B3C6F1A2E3D4C6B8F9A3C6D2A1B4F7C9D1
+#     volumes:
+#       - ./uploads:/app/uploads
+#       - ./logs:/app/logs
+
+#   # Base de données pour développement
+#   db:
+#     image: mysql:8.0
+#     environment:
+#       MYSQL_ROOT_PASSWORD: root
+#       MYSQL_DATABASE: logement_cameroun
+#     ports:
+#       - "3306:3306"
+#     volumes:
+#       - mysql_data:/var/lib/mysql
+
+#   # Prometheus pour monitoring
+#   prometheus:
+#     image: prom/prometheus
+#     ports:
+#       - "9090:9090"
+#     volumes:
+#       - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+# volumes:
+#   mysql_data:
+
+version: '3.8'
+
+services:
+  # ========== BACKEND ==========
+  backend:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: mboaspot_backend
+    container_name: backend
+    ports:
+      - "8003:8003"
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/logement_cameroun?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+      JWT_SECRET: 6F9C2A1B4E7D9F3A6B8C1D2E4F7A9B3C6F1A2E3D4C6B8F9A3C6D2A1B4F7C9D1
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+    networks:
+      - mb_net
+
+  # ========== MYSQL ==========
+  db:
+    image: mysql:8.0
+    container_name: backend-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: logement_cameroun
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 5s
+      retries: 5
+      start_period: 30s
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - mb_net
+
+  # ========== PROMETHEUS ==========
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: backend-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+      - mb_net
+
+# ========== VOLUMES ==========
+volumes:
+  mysql_data:
+
+# ========== RÉSEAUX ==========
+networks:
+  mb_net:
+    driver: bridge

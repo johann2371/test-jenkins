@@ -1,0 +1,579 @@
+2026-01-12 08:39:07 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 4032 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 08:39:07 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 08:39:56 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 6584 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 08:39:56 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 08:40:11 [main] INFO  c.example.backend.BackendApplication - Started BackendApplication in 15.763 seconds (process running for 16.712)
+2026-01-12 08:43:30 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:43:30 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:43:30 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:43:36 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=mbongowilfried06@gmail.com
+2026-01-12 08:43:36 [http-nio-8003-exec-4] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=mbongowilfried06@gmail.com
+2026-01-12 08:43:37 [http-nio-8003-exec-4] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=7 role=VOYAGEUR
+2026-01-12 08:43:37 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AuthController - Login réussi pour email=mbongowilfried06@gmail.com
+2026-01-12 08:43:37 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:43:37 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:43:37 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:43:39 [http-nio-8003-exec-10] INFO  c.e.b.c.ReservationController - Récupération des réservations pour voyageur ID : 7
+2026-01-12 08:43:39 [http-nio-8003-exec-10] INFO  c.e.b.s.i.ReservationService - Récupération réservations du voyageur ID=7
+2026-01-12 08:43:39 [http-nio-8003-exec-10] INFO  c.e.b.c.ReservationController - Nombre de réservations trouvées : 0
+2026-01-12 08:43:41 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:43:41 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:43:41 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:43:44 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:43:44 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:43:44 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:44:30 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=proprio@gmail.com
+2026-01-12 08:44:30 [http-nio-8003-exec-7] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=proprio@gmail.com
+2026-01-12 08:44:30 [http-nio-8003-exec-7] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=6 role=PROPRIETAIRE
+2026-01-12 08:44:30 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AuthController - Login réussi pour email=proprio@gmail.com
+2026-01-12 08:44:31 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:44:31 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:44:31 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:44:31 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:44:37 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:44:37 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:44:37 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:44:37 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:47:42 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:47:42 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:47:42 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:47:42 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:47:46 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:47:46 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:47:46 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:47:46 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:47:49 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:47:49 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:47:49 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:47:49 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:49:52 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:49:52 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:49:52 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:49:52 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:50:02 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:50:02 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:50:02 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:50:02 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:50:10 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:50:10 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:50:10 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:50:10 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:50:35 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:50:35 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:50:35 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:50:37 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:50:37 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:50:37 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:50:37 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:50:39 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:50:39 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:50:39 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:50:39 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:50:41 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:50:41 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:50:41 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:50:43 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:50:43 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:50:43 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:50:43 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:50:48 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:50:48 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:50:48 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:50:48 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:50:51 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:50:51 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:50:51 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:50:51 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:50:54 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:50:54 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:50:54 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:50:56 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:50:56 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:50:56 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:50:56 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:51:08 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:51:08 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:51:08 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:51:08 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:51:21 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:51:21 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:51:21 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:51:53 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=proprio@gmail.com
+2026-01-12 08:51:53 [http-nio-8003-exec-10] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=proprio@gmail.com
+2026-01-12 08:51:53 [http-nio-8003-exec-10] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=6 role=PROPRIETAIRE
+2026-01-12 08:51:53 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AuthController - Login réussi pour email=proprio@gmail.com
+2026-01-12 08:51:53 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:51:53 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:51:53 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:51:53 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:51:57 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:51:57 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:51:57 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:51:57 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:52:14 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:52:14 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:52:14 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:52:14 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:52:16 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:52:16 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:52:16 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:52:16 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:52:37 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:52:37 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:52:37 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:52:37 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:52:40 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 08:52:40 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 08:52:40 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 0 top annonces récupérées
+2026-01-12 08:52:42 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 08:52:42 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 08:52:42 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 08:52:42 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 08:52:45 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='null', quartier='null', typeAnnonce='null', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 08:52:45 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: null, Type: null
+2026-01-12 08:52:45 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 08:52:45 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 08:52:50 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:52:50 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:52:50 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:52:50 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 08:52:51 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 08:52:51 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 08:52:51 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 08:52:51 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:11:54 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 25232 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 09:11:54 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 09:12:06 [main] INFO  c.example.backend.BackendApplication - Started BackendApplication in 12.147 seconds (process running for 13.423)
+2026-01-12 09:12:20 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:12:20 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:12:20 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:12:20 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:24:26 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:24:26 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:24:26 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:24:26 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:26:29 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:26:29 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:26:29 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:26:29 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:26:41 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:26:41 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:26:41 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:26:41 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:30:01 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:30:01 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:30:02 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:30:02 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:31:35 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:31:35 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:31:35 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:31:35 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:33:01 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Upload d'une image: 13th-Aug-DJ-Banner-Pair-Programming-Why-You-Should-Care-About-It-and-How-To-Do-It-Remotely.jpg
+2026-01-12 09:33:01 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Upload d'une image: tdd.png
+2026-01-12 09:33:01 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Image uploadée avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 09:33:01 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image uploadée avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 09:33:01 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Création d'une annonce DTO
+2026-01-12 09:33:01 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Début createAnnonce (DTO) - Titre: Logan's home
+2026-01-12 09:33:01 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Propriétaire trouvé - ID: 2, Nom: proprio SA
+2026-01-12 09:33:01 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Annonce DTO sauvegardée. ID: 7
+2026-01-12 09:33:01 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Fin création annonce ID: 7
+2026-01-12 09:33:01 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Annonce DTO créée ID=7
+2026-01-12 09:33:02 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:33:02 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:33:02 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:33:02 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:33:06 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:33:06 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:33:06 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:33:06 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:33:09 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Récupération des annonces du propriétaire ID=6
+2026-01-12 09:33:09 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Récupération annonces pour Propriétaire ID: 6
+2026-01-12 09:33:09 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Nombre d'annonces trouvées pour ce propriétaire: 0
+2026-01-12 09:33:09 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - 0 annonces récupérées pour le propriétaire ID=6
+2026-01-12 09:33:17 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 09:33:17 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 09:33:17 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 09:33:28 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=mbongowilfried06@gmail.com
+2026-01-12 09:33:28 [http-nio-8003-exec-7] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=mbongowilfried06@gmail.com
+2026-01-12 09:33:28 [http-nio-8003-exec-7] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=7 role=VOYAGEUR
+2026-01-12 09:33:28 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AuthController - Login réussi pour email=mbongowilfried06@gmail.com
+2026-01-12 09:33:28 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 09:33:28 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 09:33:28 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 09:33:34 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 09:33:34 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 09:33:34 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 09:43:56 [http-nio-8003-exec-8] INFO  c.e.b.c.ReservationController - Création d'une réservation : com.example.backend.dto.ReservationRequestDTO@783000d8
+2026-01-12 09:43:56 [http-nio-8003-exec-8] INFO  c.e.b.s.i.ReservationService - Création réservation pour annonce ID=7 et voyageur ID=7
+2026-01-12 09:43:56 [http-nio-8003-exec-8] INFO  c.e.b.s.i.ReservationService - Vérification disponibilité annonce ID=7
+2026-01-12 09:43:56 [http-nio-8003-exec-8] INFO  c.e.b.s.i.ReservationService - Disponibilité finale annonce ID=7 : true
+2026-01-12 09:44:10 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 09:44:10 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 09:44:10 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 09:49:46 [http-nio-8003-exec-5] INFO  c.e.b.c.ReservationController - Récupération des réservations pour voyageur ID : 7
+2026-01-12 09:49:46 [http-nio-8003-exec-5] INFO  c.e.b.s.i.ReservationService - Récupération réservations du voyageur ID=7
+2026-01-12 09:49:46 [http-nio-8003-exec-5] INFO  c.e.b.c.ReservationController - Nombre de réservations trouvées : 0
+2026-01-12 10:41:58 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 25224 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 10:41:58 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 10:42:11 [main] INFO  c.example.backend.BackendApplication - Started BackendApplication in 13.246 seconds (process running for 14.229)
+2026-01-12 10:43:35 [http-nio-8003-exec-2] INFO  c.e.b.c.ReservationController - Récupération des réservations pour voyageur ID : 7
+2026-01-12 10:43:35 [http-nio-8003-exec-2] INFO  c.e.b.s.i.ReservationService - Récupération réservations du voyageur ID=7
+2026-01-12 10:43:35 [http-nio-8003-exec-2] INFO  c.e.b.c.ReservationController - Nombre de réservations trouvées : 0
+2026-01-12 10:44:35 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 10:44:35 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 10:44:35 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 10:44:39 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 10:44:39 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 10:44:39 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 10:45:49 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 10:45:49 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 10:45:49 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 10:45:58 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 10:45:58 [http-nio-8003-exec-9] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 10:45:58 [http-nio-8003-exec-9] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 14:01:51 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 21896 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 14:01:51 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 14:02:09 [main] INFO  c.example.backend.BackendApplication - Started BackendApplication in 18.689 seconds (process running for 20.005)
+2026-01-12 14:17:34 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 14:17:34 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 14:17:34 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 14:17:34 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 14:17:34 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 14:17:41 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 14:17:42 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 14:17:42 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 14:17:42 [http-nio-8003-exec-8] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 14:17:42 [http-nio-8003-exec-8] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 14:17:42 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 14:17:42 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 14:17:47 [http-nio-8003-exec-10] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 14:17:47 [http-nio-8003-exec-10] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 14:17:52 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 14:17:52 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 14:17:56 [http-nio-8003-exec-1] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 14:17:56 [http-nio-8003-exec-1] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 14:18:13 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 14:18:13 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 14:18:13 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 14:18:13 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 14:18:13 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 14:18:13 [http-nio-8003-exec-6] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 14:18:13 [http-nio-8003-exec-6] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:19:12 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 36372 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 17:19:12 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 17:19:24 [main] INFO  c.example.backend.BackendApplication - Started BackendApplication in 13.371 seconds (process running for 14.65)
+2026-01-12 17:19:57 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 17:19:57 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 17:19:57 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 17:19:57 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:19:57 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:20:10 [http-nio-8003-exec-8] INFO  c.e.b.c.ReservationController - Récupération des réservations pour voyageur ID : 7
+2026-01-12 17:20:10 [http-nio-8003-exec-8] INFO  c.e.b.s.i.ReservationService - Récupération réservations du voyageur ID=7
+2026-01-12 17:20:10 [http-nio-8003-exec-8] INFO  c.e.b.c.ReservationController - Nombre de réservations trouvées : 0
+2026-01-12 17:20:13 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 17:20:13 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 17:20:13 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 17:20:13 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:20:13 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:20:33 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 17:20:33 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 17:20:33 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 17:20:33 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:20:33 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:20:33 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 17:20:33 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 17:20:47 [http-nio-8003-exec-10] INFO  c.e.b.c.ReservationController - Création d'une réservation : com.example.backend.dto.ReservationRequestDTO@1e598516
+2026-01-12 17:20:47 [http-nio-8003-exec-10] INFO  c.e.b.s.i.ReservationService - Création réservation pour annonce ID=7 et voyageur ID=7
+2026-01-12 17:20:47 [http-nio-8003-exec-10] INFO  c.e.b.s.i.ReservationService - Vérification disponibilité annonce ID=7
+2026-01-12 17:20:47 [http-nio-8003-exec-10] INFO  c.e.b.s.i.ReservationService - Disponibilité finale annonce ID=7 : true
+2026-01-12 17:21:20 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 17:21:20 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 17:21:20 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 17:21:20 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:21:20 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:21:50 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 17:21:50 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 17:21:50 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 17:21:50 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 17:21:51 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='null', quartier='null', typeAnnonce='null', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 17:21:51 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: null, Type: null
+2026-01-12 17:21:51 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 1 annonce(s) trouvée(s)
+2026-01-12 17:21:51 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 1 résultats trouvés
+2026-01-12 17:21:51 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:21:51 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:22:06 [http-nio-8003-exec-6] INFO  c.e.b.c.ReservationController - Récupération des réservations pour voyageur ID : 7
+2026-01-12 17:22:06 [http-nio-8003-exec-6] INFO  c.e.b.s.i.ReservationService - Récupération réservations du voyageur ID=7
+2026-01-12 17:22:06 [http-nio-8003-exec-6] INFO  c.e.b.c.ReservationController - Nombre de réservations trouvées : 0
+2026-01-12 17:22:09 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 17:22:09 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 17:22:09 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 17:22:09 [http-nio-8003-exec-1] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:22:09 [http-nio-8003-exec-1] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:22:17 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=admin@mboaspot.cm
+2026-01-12 17:22:17 [http-nio-8003-exec-2] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=admin@mboaspot.cm
+2026-01-12 17:22:17 [http-nio-8003-exec-2] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=4 role=ADMIN
+2026-01-12 17:22:17 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AuthController - Login réussi pour email=admin@mboaspot.cm
+2026-01-12 17:22:51 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 17:22:51 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 17:22:51 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 17:22:51 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 17:22:53 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 17:22:53 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 17:22:53 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 17:22:53 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:22:53 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 17:24:43 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 17:24:43 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 17:24:43 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 17:24:43 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 21:55:21 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 26212 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 21:55:21 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 21:55:35 [main] INFO  c.example.backend.BackendApplication - Started BackendApplication in 14.437 seconds (process running for 15.576)
+2026-01-12 21:55:41 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 21:55:41 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 21:55:41 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 21:55:41 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:55:41 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:56:22 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 21:56:22 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 21:56:22 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 21:56:22 [http-nio-8003-exec-8] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:56:22 [http-nio-8003-exec-8] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:56:22 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 21:56:22 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 21:56:31 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 21:56:31 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 21:56:31 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 21:56:31 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:56:31 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:56:36 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=mbongowilfried06@gmail.com
+2026-01-12 21:56:36 [http-nio-8003-exec-4] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=mbongowilfried06@gmail.com
+2026-01-12 21:56:37 [http-nio-8003-exec-4] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=7 role=VOYAGEUR
+2026-01-12 21:56:37 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AuthController - Login réussi pour email=mbongowilfried06@gmail.com
+2026-01-12 21:56:37 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 21:56:37 [http-nio-8003-exec-7] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 21:56:37 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 21:56:37 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:56:37 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:56:43 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 21:56:43 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 21:56:43 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 21:56:43 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:56:43 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:57:35 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 21:57:35 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 21:57:35 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 21:57:35 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:57:35 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 21:57:35 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 21:57:35 [http-nio-8003-exec-9] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 21:57:48 [http-nio-8003-exec-10] INFO  c.e.b.c.ReservationController - Création d'une réservation : com.example.backend.dto.ReservationRequestDTO@41983a5e
+2026-01-12 21:57:48 [http-nio-8003-exec-10] INFO  c.e.b.s.i.ReservationService - Création réservation pour annonce ID=7 et voyageur ID=7
+2026-01-12 21:57:48 [http-nio-8003-exec-10] INFO  c.e.b.s.i.ReservationService - Vérification disponibilité annonce ID=7
+2026-01-12 21:57:48 [http-nio-8003-exec-10] INFO  c.e.b.s.i.ReservationService - Disponibilité finale annonce ID=7 : true
+2026-01-12 21:58:16 [http-nio-8003-exec-2] INFO  c.e.b.c.ReservationController - Vérification de disponibilité pour : com.example.backend.dto.DisponibiliteRequestDTO@2da7cd84
+2026-01-12 21:58:16 [http-nio-8003-exec-2] INFO  c.e.b.s.i.ReservationService - Vérification disponibilité annonce ID=7
+2026-01-12 21:58:16 [http-nio-8003-exec-2] INFO  c.e.b.s.i.ReservationService - Disponibilité finale annonce ID=7 : true
+2026-01-12 21:58:16 [http-nio-8003-exec-2] INFO  c.e.b.c.ReservationController - Résultat disponibilité : true
+2026-01-12 21:59:17 [http-nio-8003-exec-8] INFO  c.e.b.c.ReservationController - Vérification de disponibilité pour : com.example.backend.dto.DisponibiliteRequestDTO@73047e04
+2026-01-12 21:59:17 [http-nio-8003-exec-8] INFO  c.e.b.s.i.ReservationService - Vérification disponibilité annonce ID=7
+2026-01-12 21:59:17 [http-nio-8003-exec-8] INFO  c.e.b.s.i.ReservationService - Disponibilité finale annonce ID=7 : true
+2026-01-12 21:59:17 [http-nio-8003-exec-8] INFO  c.e.b.c.ReservationController - Résultat disponibilité : true
+2026-01-12 21:59:18 [http-nio-8003-exec-7] INFO  c.e.b.c.ReservationController - Vérification de disponibilité pour : com.example.backend.dto.DisponibiliteRequestDTO@161969bb
+2026-01-12 21:59:18 [http-nio-8003-exec-7] INFO  c.e.b.s.i.ReservationService - Vérification disponibilité annonce ID=7
+2026-01-12 21:59:18 [http-nio-8003-exec-7] INFO  c.e.b.s.i.ReservationService - Disponibilité finale annonce ID=7 : true
+2026-01-12 21:59:18 [http-nio-8003-exec-7] INFO  c.e.b.c.ReservationController - Résultat disponibilité : true
+2026-01-12 22:54:03 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 33860 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 22:54:03 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 22:54:39 [main] INFO  c.example.backend.BackendApplication - Started BackendApplication in 36.744 seconds (process running for 39.308)
+2026-01-12 23:09:30 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:09:30 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:09:30 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:09:30 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:09:30 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:09:38 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=mbongowilfried06@gmail.com
+2026-01-12 23:09:38 [http-nio-8003-exec-7] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=mbongowilfried06@gmail.com
+2026-01-12 23:09:38 [http-nio-8003-exec-7] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=7 role=VOYAGEUR
+2026-01-12 23:09:38 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AuthController - Login réussi pour email=mbongowilfried06@gmail.com
+2026-01-12 23:09:38 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:09:38 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:09:38 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:09:38 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:09:38 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:09:43 [http-nio-8003-exec-4] INFO  c.e.b.controllers.FavoriController - Récupération des favoris du voyageur ID=7
+2026-01-12 23:09:43 [http-nio-8003-exec-4] INFO  c.e.b.s.i.FavoriService - Récupération favoris voyageur ID=7
+2026-01-12 23:09:46 [http-nio-8003-exec-5] INFO  c.e.b.controllers.FavoriController - Récupération des favoris du voyageur ID=7
+2026-01-12 23:09:46 [http-nio-8003-exec-5] INFO  c.e.b.s.i.FavoriService - Récupération favoris voyageur ID=7
+2026-01-12 23:09:49 [http-nio-8003-exec-7] INFO  c.e.b.controllers.FavoriController - Récupération des favoris du voyageur ID=7
+2026-01-12 23:09:49 [http-nio-8003-exec-7] INFO  c.e.b.s.i.FavoriService - Récupération favoris voyageur ID=7
+2026-01-12 23:09:52 [http-nio-8003-exec-8] INFO  c.e.b.controllers.FavoriController - Récupération des favoris du voyageur ID=7
+2026-01-12 23:09:52 [http-nio-8003-exec-8] INFO  c.e.b.s.i.FavoriService - Récupération favoris voyageur ID=7
+2026-01-12 23:09:54 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:09:54 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 23:09:54 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 23:09:54 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 23:09:55 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='null', quartier='null', typeAnnonce='null', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:09:55 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: null, Type: null
+2026-01-12 23:09:55 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 1 annonce(s) trouvée(s)
+2026-01-12 23:09:55 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 1 résultats trouvés
+2026-01-12 23:09:55 [http-nio-8003-exec-6] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:09:55 [http-nio-8003-exec-6] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:10:01 [http-nio-8003-exec-8] INFO  c.e.b.controllers.FavoriController - Récupération des favoris du voyageur ID=7
+2026-01-12 23:10:01 [http-nio-8003-exec-8] INFO  c.e.b.s.i.FavoriService - Récupération favoris voyageur ID=7
+2026-01-12 23:10:03 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:10:03 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 23:10:03 [http-nio-8003-exec-4] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 23:10:03 [http-nio-8003-exec-4] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 23:10:20 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='null', quartier='null', typeAnnonce='null', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:10:20 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: null, Type: null
+2026-01-12 23:10:20 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 1 annonce(s) trouvée(s)
+2026-01-12 23:10:20 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 1 résultats trouvés
+2026-01-12 23:10:20 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:10:20 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:11:59 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 23:11:59 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 23:11:59 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 23:12:00 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:12:00 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:12:00 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 23:12:00 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 23:12:03 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:12:03 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 23:12:03 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 23:12:03 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 23:12:05 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='null', quartier='null', typeAnnonce='null', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:12:05 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: null, Type: null
+2026-01-12 23:12:05 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 1 annonce(s) trouvée(s)
+2026-01-12 23:12:05 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - 1 résultats trouvés
+2026-01-12 23:12:05 [http-nio-8003-exec-1] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:12:05 [http-nio-8003-exec-1] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:12:08 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 23:12:08 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 23:12:08 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 23:12:08 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:12:08 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:12:08 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 23:12:08 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 23:12:11 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:12:11 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 23:12:11 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 23:12:11 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 23:12:14 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='null', quartier='null', typeAnnonce='null', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:12:14 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: null, Type: null
+2026-01-12 23:12:14 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 1 annonce(s) trouvée(s)
+2026-01-12 23:12:14 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 1 résultats trouvés
+2026-01-12 23:12:14 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:12:14 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:13:46 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Récupération de l'annonce DTO ID=7
+2026-01-12 23:13:46 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Recherche annonce (Optional DTO) ID: 7
+2026-01-12 23:13:46 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Annonce DTO récupérée ID=7
+2026-01-12 23:13:46 [http-nio-8003-exec-8] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:13:46 [http-nio-8003-exec-8] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:13:46 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Récupération de l'image: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 23:13:46 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Image servie avec succès: cb7e9b55-e2a3-4f5a-9574-2a295f4f4314_1768206781702.png
+2026-01-12 23:13:50 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:13:50 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:13:50 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:13:50 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:13:50 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:16:00 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:16:00 [http-nio-8003-exec-2] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:16:00 [http-nio-8003-exec-2] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:16:01 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:16:01 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:16:09 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:16:09 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:16:09 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:16:09 [http-nio-8003-exec-10] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:16:09 [http-nio-8003-exec-10] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:29:26 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:29:26 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:29:26 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:29:26 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:29:26 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:31:31 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:31:31 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:31:31 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:31:31 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:31:31 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:31:32 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:31:32 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:31:32 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:31:32 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:31:32 [http-nio-8003-exec-3] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:31:35 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:31:35 [http-nio-8003-exec-5] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:31:35 [http-nio-8003-exec-5] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:31:35 [http-nio-8003-exec-6] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:31:35 [http-nio-8003-exec-6] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:31:36 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:31:36 [http-nio-8003-exec-10] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:31:36 [http-nio-8003-exec-10] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:31:36 [http-nio-8003-exec-8] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:31:36 [http-nio-8003-exec-8] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:32:54 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:32:54 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:32:54 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:32:54 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:32:54 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:33:01 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=mbongowilfried06@gmail.com
+2026-01-12 23:33:01 [http-nio-8003-exec-6] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=mbongowilfried06@gmail.com
+2026-01-12 23:33:01 [http-nio-8003-exec-6] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=7 role=VOYAGEUR
+2026-01-12 23:33:01 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AuthController - Login réussi pour email=mbongowilfried06@gmail.com
+2026-01-12 23:33:02 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:33:02 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:33:02 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:33:02 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:33:02 [http-nio-8003-exec-7] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:33:11 [http-nio-8003-exec-1] INFO  c.e.b.controllers.FavoriController - Création favori pour voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:33:11 [http-nio-8003-exec-1] INFO  c.e.b.s.i.FavoriService - Ajout favori voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:33:14 [http-nio-8003-exec-4] INFO  c.e.b.controllers.FavoriController - Création favori pour voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:33:14 [http-nio-8003-exec-4] INFO  c.e.b.s.i.FavoriService - Ajout favori voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:33:16 [http-nio-8003-exec-6] INFO  c.e.b.controllers.FavoriController - Récupération des favoris du voyageur ID=7
+2026-01-12 23:33:16 [http-nio-8003-exec-6] INFO  c.e.b.s.i.FavoriService - Récupération favoris voyageur ID=7
+2026-01-12 23:33:35 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:33:35 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 23:33:35 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 23:33:35 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 23:33:37 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='null', quartier='null', typeAnnonce='null', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:33:37 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: null, Type: null
+2026-01-12 23:33:37 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 1 annonce(s) trouvée(s)
+2026-01-12 23:33:37 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 1 résultats trouvés
+2026-01-12 23:33:37 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:33:37 [http-nio-8003-exec-4] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:33:39 [http-nio-8003-exec-6] INFO  c.e.b.controllers.FavoriController - Création favori pour voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:33:39 [http-nio-8003-exec-6] INFO  c.e.b.s.i.FavoriService - Ajout favori voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:39:08 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:39:08 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 23:39:08 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 23:39:08 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 23:39:12 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - Recherche annonces avec critères : RechercheDTO{ville='', quartier='null', typeAnnonce='', prixMin=null, prixMax=null, nbreChambresMin=null, nbreLitsMin=null, maxInvitesMin=null, evaluationMin=null}
+2026-01-12 23:39:12 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Recherche avancée initiée. Ville: , Type: 
+2026-01-12 23:39:12 [http-nio-8003-exec-6] INFO  c.e.b.s.i.AnnonceService - Résultats recherche: 0 annonce(s) trouvée(s)
+2026-01-12 23:39:12 [http-nio-8003-exec-6] INFO  c.e.b.controllers.AnnonceController - 0 résultats trouvés
+2026-01-12 23:39:52 [main] INFO  c.example.backend.BackendApplication - Starting BackendApplication using Java 23.0.1 with PID 6656 (A:\mboaspot\backend\target\classes started by Wulfrid MBONGO in A:\mboaspot\backend)
+2026-01-12 23:39:52 [main] INFO  c.example.backend.BackendApplication - The following 1 profile is active: "dev"
+2026-01-12 23:40:04 [main] INFO  c.example.backend.BackendApplication - Started BackendApplication in 12.792 seconds (process running for 13.817)
+2026-01-12 23:41:15 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:41:15 [http-nio-8003-exec-3] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:41:15 [http-nio-8003-exec-3] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:41:15 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:41:15 [http-nio-8003-exec-5] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:42:01 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AuthController - Tentative de login pour email=mbongowilfried06@gmail.com
+2026-01-12 23:42:01 [http-nio-8003-exec-7] INFO  c.e.b.s.implementations.AuthService - Tentative de connexion avec email=mbongowilfried06@gmail.com
+2026-01-12 23:42:01 [http-nio-8003-exec-7] INFO  c.e.b.s.implementations.AuthService - Connexion réussie userId=7 role=VOYAGEUR
+2026-01-12 23:42:01 [http-nio-8003-exec-7] INFO  c.e.b.controllers.AuthController - Login réussi pour email=mbongowilfried06@gmail.com
+2026-01-12 23:42:01 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:42:01 [http-nio-8003-exec-1] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:42:01 [http-nio-8003-exec-1] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:42:01 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:42:01 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:42:08 [http-nio-8003-exec-3] INFO  c.e.b.controllers.FavoriController - Création favori pour voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:42:08 [http-nio-8003-exec-3] INFO  c.e.b.s.i.FavoriService - Ajout favori voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:42:41 [http-nio-8003-exec-6] INFO  c.e.b.controllers.FavoriController - Création favori pour voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:42:41 [http-nio-8003-exec-6] INFO  c.e.b.s.i.FavoriService - Ajout favori voyageur ID=entities.Voyageur[ id=7 ], annonce ID=entities.Annonces[ id=7 ]
+2026-01-12 23:59:02 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - Récupération des top annonces
+2026-01-12 23:59:02 [http-nio-8003-exec-8] INFO  c.e.b.s.i.AnnonceService - Récupération des Top Annonces
+2026-01-12 23:59:02 [http-nio-8003-exec-8] INFO  c.e.b.controllers.AnnonceController - 1 top annonces récupérées
+2026-01-12 23:59:02 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Récupération de l'image: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
+2026-01-12 23:59:02 [http-nio-8003-exec-2] INFO  c.e.b.c.FileUploadController - Image servie avec succès: 93f68dc9-ee13-473d-a421-a3ddba3786fb_1768206781702.jpg
