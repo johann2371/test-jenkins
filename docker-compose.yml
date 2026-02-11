@@ -1,0 +1,42 @@
+version: "3.7"
+
+services:
+
+  sa_api_compose:
+    build: .
+    container_name: test-conteneur
+    restart: always
+    ports:
+      - "8084:9097"
+    networks:
+      - sa_net
+
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/test_conteneur_bd?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_SHOW_SQL: "true"
+
+    depends_on:
+      - mysqldb
+
+    volumes:
+      - .m2:/root/.m2
+
+  mysqldb:
+    image: mysql:8.0
+    container_name: test_conteneur_mysql
+    restart: always
+    ports:
+      - "3309:3306"   # ✅ correction ici
+    networks:
+      - sa_net
+
+    environment:
+      MYSQL_DATABASE: test_conteneur_bd
+      MYSQL_ROOT_PASSWORD: root
+
+networks:
+  sa_net:
