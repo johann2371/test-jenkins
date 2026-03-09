@@ -123,7 +123,7 @@ public class AnnonceService {
                             return new RuntimeException("Propriétaire non trouvé. Assurez-vous d'être connecté en tant que propriétaire.");
                         });
             }
-
+//com
             log.info("Propriétaire trouvé - ID: {}, Nom: {}", proprietaire.getId(), proprietaire.getNomEntreprise());
 
             // Convertir le DTO en entité
